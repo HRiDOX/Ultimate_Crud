@@ -2,7 +2,7 @@ import React from 'react';
 import {useList} from '@pankod/refine-core';
 import { Typography,Box,Stack } from '@pankod/refine-mui';
 import {Profile,
-  propertyCard,
+  PropertyCard,
   CustomButton,
   PieChart,
   PropertyReferrals,

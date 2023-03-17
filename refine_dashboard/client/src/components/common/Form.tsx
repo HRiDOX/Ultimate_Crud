@@ -38,7 +38,7 @@ const Form = ({type,register,onFinish,formLoading,handleSubmit,handleImageChange
                 Select Property Type
               </FormHelperText>
               <Select variant="outlined" color="info" displayEmpty required 
-              inputProps={{'aria-label':'Without label'}} defaultValue="apartment" {...register('PropertyType',{required:true})}>
+              inputProps={{'aria-label':'Without label'}} defaultValue="apartment" {...register('propertyType',{required:true})}>
                 <MenuItem value="apartment">Apartment</MenuItem>
               <MenuItem value="villa">Villa</MenuItem>
               <MenuItem value="farmhouse">Farmhouse</MenuItem>
@@ -88,7 +88,7 @@ const Form = ({type,register,onFinish,formLoading,handleSubmit,handleImageChange
           <CustomButton
             type="submit"
             title={formLoading ? 'Submitting...':'Submit'} 
-            backgroundColor="#$75be8" 
+            backgroundColor="#475be8" 
             color="#fcfcfc" 
           />
 

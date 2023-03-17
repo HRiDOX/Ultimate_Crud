@@ -4,11 +4,11 @@ import PropertyReferrals from "./charts/PropertyReferrals";
 import TotalRevenue from "./charts/TotalRevenue";
 import CustomButton from "./common/CustomButton";
 import Profile from "./common/Profile";
-import propertyCard from "./common/propertyCard";
+import PropertyCard from "./common/propertyCard";
 import TopAgent from "./home/TopAgent";
 export {
     Profile,
-    propertyCard,
+    PropertyCard,
     CustomButton,
     PieChart,
     PropertyReferrals,
